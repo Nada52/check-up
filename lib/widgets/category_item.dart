@@ -42,7 +42,7 @@ class CategoryItem extends StatelessWidget{
             padding: EdgeInsets.all( 10),
             alignment: Alignment.center,
             child: Text(title,
-              style: Theme.of(context).textTheme.titleLarge,
+             style: TextStyle(color: Colors.white, fontSize: 30,),
             ),
 
             decoration: BoxDecoration(
